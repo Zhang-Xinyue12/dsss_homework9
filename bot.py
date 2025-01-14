@@ -41,7 +41,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 # Main function, set robot
 def main():
     # set TELEGRAM_BOT_TOKEN
-    TELEGRAM_BOT_TOKEN = '7830105491:AAF8t7FlaxWNykNPMdUN3KsdRr3_Vdh0fKM'  
+    TELEGRAM_BOT_TOKEN = 'Your Robot API Token'  
     
     if not TELEGRAM_BOT_TOKEN:
         print("please set TELEGRAM_BOT_TOKEN.")
